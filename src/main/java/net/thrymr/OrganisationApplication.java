@@ -17,8 +17,5 @@ public class OrganisationApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
     }
-    @Bean
-    public ModelMapper modelMapper(){
-        return new ModelMapper();
-    }
+    
 }
